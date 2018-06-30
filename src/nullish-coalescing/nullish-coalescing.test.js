@@ -23,3 +23,7 @@ test('Nullish coalescing does not default empty strings', (t) => {
 test('Nullish coalescing does not default false', (t) => {
     t.is(false ?? 'default', false);
 });
+
+test('Nullish coalescing does not default false', (t) => {
+    t.is(false ?? 'default', false);
+});
